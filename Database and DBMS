@@ -1,0 +1,11 @@
+--------------------------- DataBase -----------------------------------
+1) Collection of DataBase
+2)  A Method for accessing and manupilating the data
+
+-------------------------- DBMS / RDBMS ---------------------------
+Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.
+
+
+--------------------------- MySQL vs SQL -----------------------------------------
+SQL is the language we interact with the database to access and manipulate the data
+MYSQL is the database management system

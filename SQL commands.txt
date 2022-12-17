@@ -1,0 +1,24 @@
+show databases;
+CREATE DATABASE <or> create database <db_name>;
+DROP DATABASE <or> drop database <db_name>;
+select database();     -------- Tells the current database, if afterwards database is deleted then it Gives NULLL
+SHOW tables
+SHOW COLUMNS FROM <table>  or   DESC <table>
+SHOW WARNINGS;
+
+DataType:
+1) int 2) varchar(<max_length>): Variable Character length
+
+Extra Info about column
+1) NOT NULL 2) DEFAULT <value>
+
+Primary Key
+
+CREATE TABLE unique_dogs 
+( dog_id int NOT NULL AUTO_INCREMENT, 
+name varchar(20) NOT NULL, 
+age int NOT NULL DEFAULT 0 , 
+PRIMARY KEY (dog_id));
+
+ALiases : using AS
+SELECT name AS "kitty Name" , breed AS "Kitty Breed" FROM cat_base;
